@@ -5,3 +5,5 @@
 - [defer 对浏览器渲染流程影响探究](https://github.com/anson09/blog/issues/1)
 
 - [面试官培养](https://github.com/anson09/blog/issues/2)
+
+- [团队规范](https://github.com/anson09/blog/issues/3)
