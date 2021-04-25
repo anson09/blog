@@ -7,3 +7,7 @@
 - [面试官培养](https://github.com/anson09/blog/issues/2)
 
 - [团队规范](https://github.com/anson09/blog/issues/3)
+
+- [2019 工作总结](https://github.com/anson09/blog/issues/4)
+
+- [2020 工作总结](https://github.com/anson09/blog/issues/5)
