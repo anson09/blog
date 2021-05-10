@@ -13,3 +13,5 @@
 - [2020 工作总结](https://github.com/anson09/blog/issues/5)
 
 - [关于浏览器渲染时机](https://github.com/anson09/blog/issues/8)
+
+- [simple js benchmarks in different browsers](https://github.com/anson09/blog/issues/9) 
