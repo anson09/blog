@@ -19,3 +19,5 @@
 - [服务器抓包与请求拦截](https://github.com/anson09/blog/issues/10)
 
 - [setTimeout 最短时长测试](https://github.com/anson09/blog/issues/11)
+
+- [浏览器页面资源跨域](https://github.com/anson09/blog/issues/12)
