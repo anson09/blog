@@ -21,3 +21,5 @@
 - [setTimeout 最短时长测试](https://github.com/anson09/blog/issues/11)
 
 - [浏览器页面资源跨域](https://github.com/anson09/blog/issues/12)
+
+- [关于图片大小](https://github.com/anson09/blog/issues/13)
