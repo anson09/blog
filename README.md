@@ -23,3 +23,5 @@
 - [浏览器页面资源跨域](https://github.com/anson09/blog/issues/12)
 
 - [关于图片大小](https://github.com/anson09/blog/issues/13)
+
+- [js 编解码 API](https://github.com/anson09/blog/issues/14)
