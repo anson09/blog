@@ -12,6 +12,8 @@
 
 - [2020 工作总结](https://github.com/anson09/blog/issues/5)
 
+- [种草](https://github.com/anson09/blog/issues/6) 
+
 - [关于浏览器渲染时机](https://github.com/anson09/blog/issues/8)
 
 - [simple js benchmarks in different browsers](https://github.com/anson09/blog/issues/9) 
@@ -25,3 +27,5 @@
 - [关于图片大小](https://github.com/anson09/blog/issues/13)
 
 - [js 编解码 API](https://github.com/anson09/blog/issues/14)
+
+- [拔草](https://github.com/anson09/blog/issues/15)
