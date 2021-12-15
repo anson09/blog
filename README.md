@@ -31,3 +31,7 @@
 - [拔草](https://github.com/anson09/blog/issues/15)
 
 - [投资](https://github.com/anson09/blog/issues/16)
+
+- [原则](https://github.com/anson09/blog/issues/17)
+
+- [nginx 使用手记](https://github.com/anson09/blog/issues/18)
