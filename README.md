@@ -36,4 +36,4 @@
 
 - [nginx 使用手记](https://github.com/anson09/blog/issues/18)
 
-- [js 内存读写速度 连续 vs 动态分配](https://github.com/anson09/blog/issues/19)
+- [js array 读写速度 连续 vs 动态分配](https://github.com/anson09/blog/issues/19)
