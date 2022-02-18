@@ -1,5 +1,7 @@
 # 工作学习 issue 记录
 
+- [一个渲染性能优化实践](https://github.com/anson09/blog/issues/23)
+
 - [关于管理](https://github.com/anson09/blog/issues/22)
 
 - [js array 读写速度 连续 vs 动态分配](https://github.com/anson09/blog/issues/19)
