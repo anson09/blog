@@ -12,7 +12,7 @@
 
 - [投资](https://github.com/anson09/blog/issues/16)
 
-- [拔草](https://github.com/anson09/blog/issues/15)
+- [工具选择](https://github.com/anson09/blog/issues/15)
 
 - [js 编解码 API](https://github.com/anson09/blog/issues/14)
 
