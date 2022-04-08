@@ -1,5 +1,7 @@
 # 工作学习 issue 记录
 
+- [cdn 使用](https://github.com/anson09/blog/issues/25)
+
 - [读书笔记 - 高效能人士的七个习惯](https://github.com/anson09/blog/issues/24)
 
 - [一个渲染性能优化实践](https://github.com/anson09/blog/issues/23)
