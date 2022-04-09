@@ -30,8 +30,6 @@
 
 - [关于浏览器渲染时机](https://github.com/anson09/blog/issues/8)
 
-- [种草](https://github.com/anson09/blog/issues/6)
-
 - [2020 工作总结](https://github.com/anson09/blog/issues/5)
 
 - [2019 工作总结](https://github.com/anson09/blog/issues/4)
