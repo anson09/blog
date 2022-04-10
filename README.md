@@ -1,43 +1,43 @@
 # 工作学习 issue 记录
 
-- [缓存](https://github.com/anson09/blog/issues/25)
+- [缓存](https://github.com/anson09/blog/issues/25) <sub>`2022`</sub>
 
-- [读书笔记 - 高效能人士的七个习惯](https://github.com/anson09/blog/issues/24)
+- [读书笔记 - 高效能人士的七个习惯](https://github.com/anson09/blog/issues/24) <sub>`2022`</sub>
 
-- [一个渲染性能优化实践](https://github.com/anson09/blog/issues/23)
+- [一个渲染性能优化实践](https://github.com/anson09/blog/issues/23)  <sub>`2022`</sub>
 
-- [关于管理](https://github.com/anson09/blog/issues/22)
+- [关于管理](https://github.com/anson09/blog/issues/22)  <sub>`2021`</sub>
 
-- [nginx 使用手记](https://github.com/anson09/blog/issues/18)
+- [nginx 使用手记](https://github.com/anson09/blog/issues/18)  <sub>`2021`</sub>
 
-- [原则](https://github.com/anson09/blog/issues/17)
+- [原则](https://github.com/anson09/blog/issues/17)  <sub>`2021`</sub>
 
-- [投资](https://github.com/anson09/blog/issues/16)
+- [投资](https://github.com/anson09/blog/issues/16)  <sub>`2021`</sub>
 
-- [工具选择](https://github.com/anson09/blog/issues/15)
+- [工具选择](https://github.com/anson09/blog/issues/15)  <sub>`2021`</sub>
 
-- [js 编解码 API](https://github.com/anson09/blog/issues/14)
+- [js 编解码 API](https://github.com/anson09/blog/issues/14)  <sub>`2021`</sub>
 
-- [关于图片大小](https://github.com/anson09/blog/issues/13)
+- [关于图片大小](https://github.com/anson09/blog/issues/13)  <sub>`2021`</sub>
 
-- [浏览器页面资源跨域](https://github.com/anson09/blog/issues/12)
+- [浏览器页面资源跨域](https://github.com/anson09/blog/issues/12)  <sub>`2021`</sub>
 
-- [setTimeout 最短时长测试](https://github.com/anson09/blog/issues/11)
+- [setTimeout 最短时长测试](https://github.com/anson09/blog/issues/11)  <sub>`2021`</sub>
 
-- [服务器抓包与请求拦截](https://github.com/anson09/blog/issues/10)
+- [服务器抓包与请求拦截](https://github.com/anson09/blog/issues/10)  <sub>`2021`</sub>
 
-- [simple js benchmarks in different browsers](https://github.com/anson09/blog/issues/9)
+- [simple js benchmarks in different browsers](https://github.com/anson09/blog/issues/9)  <sub>`2021`</sub>
 
-- [关于浏览器渲染时机](https://github.com/anson09/blog/issues/8)
+- [关于浏览器渲染时机](https://github.com/anson09/blog/issues/8) <sub>`2021`</sub>
 
-- [2020 工作总结](https://github.com/anson09/blog/issues/5)
+- [2020 工作总结](https://github.com/anson09/blog/issues/5) <sub>`2020`</sub>
 
-- [2019 工作总结](https://github.com/anson09/blog/issues/4)
+- [2019 工作总结](https://github.com/anson09/blog/issues/4) <sub>`2019`</sub>
 
-- [团队规范](https://github.com/anson09/blog/issues/3)
+- [团队规范](https://github.com/anson09/blog/issues/3) <sub>`2019`</sub>
 
-- [面试官培养](https://github.com/anson09/blog/issues/2)
+- [面试官培养](https://github.com/anson09/blog/issues/2) <sub>`2019`</sub>
 
-- [defer 对浏览器渲染流程影响探究](https://github.com/anson09/blog/issues/1)
+- [defer 对浏览器渲染流程影响探究](https://github.com/anson09/blog/issues/1) <sub>`2018`</sub>
 
-- [vue-compare-with-react-in-reactive](https://github.com/anson09/draw/blob/main/excalidraw/vue-compare-with-react-in-reactive.png#:~:text=vue%20compare%20with%20react%20in%20reactive)
+- [vue-compare-with-react-in-reactive](https://github.com/anson09/draw/blob/main/excalidraw/vue-compare-with-react-in-reactive.png#:~:text=vue%20compare%20with%20react%20in%20reactive) <sub>`2018`</sub>
