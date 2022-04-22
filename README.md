@@ -24,7 +24,7 @@
 
 - [setTimeout 最短时长测试](https://github.com/anson09/blog/issues/11)  <sub>`2021`</sub>
 
-- [10x command](https://github.com/anson09/blog/issues/10)  <sub>`2021`</sub>
+- [10x Command](https://github.com/anson09/blog/issues/10)  <sub>`2021`</sub>
 
 - [simple js benchmarks in different browsers](https://github.com/anson09/blog/issues/9)  <sub>`2021`</sub>
 
