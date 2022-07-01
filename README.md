@@ -6,7 +6,7 @@
 
 - [一个渲染性能优化实践](https://github.com/anson09/blog/issues/23)  <sub>`2022`</sub>
 
-- [关于管理](https://github.com/anson09/blog/issues/22)  <sub>`2021`</sub>
+- [管理](https://github.com/anson09/blog/issues/22)  <sub>`2021`</sub>
 
 - [nginx 使用手记](https://github.com/anson09/blog/issues/18)  <sub>`2021`</sub>
 
