@@ -10,7 +10,7 @@
 
 - [nginx 使用手记](https://github.com/anson09/blog/issues/18)  <sub>`2021`</sub>
 
-- [原则](https://github.com/anson09/blog/issues/17)  <sub>`2021`</sub>
+- [认知](https://github.com/anson09/blog/issues/17)  <sub>`2021`</sub>
 
 - [投资](https://github.com/anson09/blog/issues/16)  <sub>`2021`</sub>
 
