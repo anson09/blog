@@ -18,7 +18,7 @@
 
 - [js 编解码 API](https://github.com/anson09/blog/issues/14)  <sub>`2021`</sub>
 
-- [关于图片大小](https://github.com/anson09/blog/issues/13)  <sub>`2021`</sub>
+- [图片大小](https://github.com/anson09/blog/issues/13)  <sub>`2021`</sub>
 
 - [浏览器页面资源跨域](https://github.com/anson09/blog/issues/12)  <sub>`2021`</sub>
 
@@ -28,7 +28,7 @@
 
 - [simple js benchmarks in different browsers](https://github.com/anson09/blog/issues/9)  <sub>`2021`</sub>
 
-- [关于浏览器渲染时机](https://github.com/anson09/blog/issues/8) <sub>`2021`</sub>
+- [浏览器渲染时机](https://github.com/anson09/blog/issues/8) <sub>`2021`</sub>
 
 - [2020 工作总结](https://github.com/anson09/blog/issues/5) <sub>`2020`</sub>
 
