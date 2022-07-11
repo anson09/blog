@@ -1,5 +1,7 @@
 # 工作学习 issue 记录
 
+- [multi processes / threads](https://github.com/anson09/blog/issues/26) <sub>`2022`</sub>
+
 - [缓存](https://github.com/anson09/blog/issues/25) <sub>`2022`</sub>
 
 - [读书笔记 - 高效能人士的七个习惯](https://github.com/anson09/blog/issues/24) <sub>`2022`</sub>
