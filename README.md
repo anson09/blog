@@ -40,4 +40,4 @@
 
 - [defer 对浏览器渲染流程影响探究](https://github.com/anson09/blog/issues/1) <sub>`2018`</sub>
 
-- [vue-compare-with-react-in-reactive](https://github.com/anson09/draw/blob/main/excalidraw/vue-compare-with-react-in-reactive.png#:~:text=vue%20compare%20with%20react%20in%20reactive) <sub>`2018`</sub>
+- [vue-compare-with-react-in-reactive](https://raw.githubusercontent.com/anson09/draw/main/excalidraw/vue-compare-with-react-in-reactive.png) <sub>`2018`</sub>
