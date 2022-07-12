@@ -36,7 +36,7 @@ console.log(1);
 add network throttle setting
 
 ![image](https://user-images.githubusercontent.com/2612873/115675619-578e8a00-a381-11eb-8c1f-27da69fa2746.png)
-![image](/assets/images/2018-2-1.png)
+![image](../assets/images/2018-2-1.png)
 
 without defer
 
