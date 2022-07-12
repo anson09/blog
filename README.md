@@ -38,6 +38,6 @@
 
 - [团队规范](https://github.com/anson09/blog/issues/3) <sub>`2019`</sub>
 
-- [defer 对浏览器渲染流程影响探究](https://anson09.github.io/blog/2018/defer%20对浏览器渲染流程影响探究) <sub>`2018`</sub>
+- [defer 对浏览器渲染流程影响探究](2018/defer%20对浏览器渲染流程影响探究.md) <sub>`2018`</sub>
 
 - [vue compare with react in reactive](https://anson09.github.io/blog/2018/vue%20compare%20with%20react%20in%20reactive) <sub>`2018`</sub>
