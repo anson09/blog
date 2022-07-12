@@ -1,4 +1,4 @@
-# 工作学习 issue 记录
+# 工作学习记录
 
 - [multi processes / threads](https://github.com/anson09/blog/issues/26) <sub>`2022`</sub>
 
