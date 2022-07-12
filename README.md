@@ -1,5 +1,3 @@
-# Working / Learning Records. Most Records Keep Updates With My Knowledge Refresh
-
 - [multi processes / threads](https://github.com/anson09/blog/issues/26) <sub>`2022`</sub>
 
 - [缓存](https://github.com/anson09/blog/issues/25) <sub>`2022`</sub>
@@ -38,6 +36,6 @@
 
 - [团队规范](https://github.com/anson09/blog/issues/3) <sub>`2019`</sub>
 
-- [defer 对浏览器渲染流程影响探究](2018/defer 对浏览器渲染流程影响探究) <sub>`2018`</sub>
+- [defer 对浏览器渲染流程影响探究](defer%20对浏览器渲染流程影响探究) <sub>`2018`</sub>
 
 - [vue compare with react in reactive](https://raw.githubusercontent.com/anson09/draw/main/excalidraw/vue-compare-with-react-in-reactive.png) <sub>`2018`</sub>
