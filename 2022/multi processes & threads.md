@@ -1,4 +1,4 @@
-# multi processes / threads
+# multi processes & threads
 
 ## multiple processes listening on the same port
 

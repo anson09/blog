@@ -2,7 +2,7 @@ _Working and learning footprints. Most of them keep updated with my knowledge._
 
 # Last Post
 
-- [multi processes / threads](https://blog.anson.ltd/2022/multi%20processes%20/%20threads) <sub>`2022`</sub>
+- [multi processes & threads](https://blog.anson.ltd/2022/multi%20processes%20&%20threads) <sub>`2022`</sub>
 
 - [缓存](https://blog.anson.ltd/2022/缓存) <sub>`2022`</sub>
 
