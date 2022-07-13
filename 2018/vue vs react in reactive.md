@@ -1,3 +1,3 @@
 # vue vs react in reactive
 
-![image](https://raw.githubusercontent.com/anson09/draw/main/excalidraw/vue-vs-react-in-reactive.png)
+![image](../assets/images/2018-1-1.png)
