@@ -1,3 +1,5 @@
 .DS_Store
-vendor
-_site
+vendor/
+_site/
+JEKYLL_GITHUB_TOKEN
+.jekyll-metadata

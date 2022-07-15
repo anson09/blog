@@ -8,7 +8,7 @@ first start: `bundle install --path vendor/bundle`
 
 keep gem update with github: `bundle update github-pages`
 
-start server: `bundle exec jekyll serve`
+start server: `JEKYLL_GITHUB_TOKEN=<your_token> bundle exec jekyll serve --incremental`
 
 cleanup cache: `bundle exec jekyll clean`
 
