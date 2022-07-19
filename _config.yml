@@ -3,3 +3,9 @@ google_analytics: G-D015S4DY82
 url: "https://blog.anson.ltd"
 plugins:
   - jekyll-sitemap
+defaults:
+  - scope:
+      path: "20*"
+    values:
+      layout: "post"
+host: 0.0.0.0
