@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<div id="post">{{content}}</div>
+
+{% if page.tags %}
+<small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}

@@ -261,6 +261,7 @@ PLATFORMS
 DEPENDENCIES
   faraday-retry
   github-pages
+  jekyll-sitemap
 
 BUNDLED WITH
    1.17.2

@@ -10,7 +10,9 @@ nginx master process and worker process listening on the same port, using the ke
 
 ![image](../assets/images/2022-4-2.png)
 
-pm2 / node:cluster mode, master process handles socket request, then distribute to worker process by round-roubin, worker process has not port listening. pm2 underlying use [node:cluster](https://github.com/Unitech/pm2/blob/da59cb6dd761546686e5f89dbc8126672d8b3460/lib/God/ClusterMode.js), and cluster underlying use child_process.fork, while bare forking requires you to handle the connections on your own.
+pm2 / node:cluster mode, master process handles socket request, then distribute to worker process by round-roubin, worker process has not port listening.  
+pm2 underlying use [node:cluster](https://github.com/Unitech/pm2/blob/da59cb6dd761546686e5f89dbc8126672d8b3460/lib/God/ClusterMode.js), and cluster underlying use child_process.fork, while bare forking requires you to handle the connections on your own.  
+fork mode only support nodejs subprocess.
 
 ![image](../assets/images/2022-4-3.png)
 
