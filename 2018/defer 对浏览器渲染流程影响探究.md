@@ -1,3 +1,7 @@
+---
+order: 2
+---
+
 # defer 对浏览器渲染流程影响探究
 
 `index.html`

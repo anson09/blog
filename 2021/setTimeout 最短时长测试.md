@@ -1,3 +1,7 @@
+---
+order: 9
+---
+
 # setTimeout 最短时长测试
 
 ```js

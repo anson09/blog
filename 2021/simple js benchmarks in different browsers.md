@@ -1,3 +1,7 @@
+---
+order: 7
+---
+
 # simple js benchmarks in different browsers
 
 macos 11.3.1
