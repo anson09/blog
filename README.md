@@ -8,11 +8,11 @@ published: false
 
 first start: `bundle install --path vendor/bundle`
 
-keep gem update with Github: `bundle update Github-Pages`
+keep gem update with Github: `bundle update github-pages`
 
-start server: `JEKYLL_GITHUB_TOKEN=<your_token> bundle exec Jekyll serve`
+start server: `JEKYLL_GITHUB_TOKEN=<your_token> bundle exec jekyll serve`
 
-cleanup cache: `bundle exec Jekyll clean`
+cleanup cache: `bundle exec jekyll clean`
 
 ### Image Naming
 
