@@ -9,3 +9,4 @@ defaults:
     values:
       layout: "post"
 host: 0.0.0.0
+# baseurl: /blog

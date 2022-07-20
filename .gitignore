@@ -2,5 +2,5 @@
 vendor/
 .bundle/
 _site/
-JEKYLL_GITHUB_TOKEN
+~JEKYLL_GITHUB_TOKEN
 .jekyll-metadata
