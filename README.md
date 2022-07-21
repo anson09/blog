@@ -20,4 +20,4 @@ year-post_idx-image_idx
 
 ## License
 
-See the LICENSE file.
+See the License file.
