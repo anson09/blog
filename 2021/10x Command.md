@@ -29,4 +29,4 @@ journalctl -u shadowsocks-libev.service|xray.service -f
 - Command PATH, expand `PATH=$PATH:other_path` in crontab file first line (default is `/usr/bin:/bin`)
 - Files permission, go settings->security set cron full disk access or specific folders
 
-If cron job's output(1|2) not redirect, it will mail to local(`mail` command check `/var/mail/`), omit mail(`>/dev/null 2>&1`), you could add `MAILTO="someone@somewhere.com"` in crontab file, this send mail to network mailbox
+If cron job's output(1\|2) not redirect, it will mail to local(`mail` command check `/var/mail/`), omit mail(`>/dev/null 2>&1`), you could add `MAILTO="someone@somewhere.com"` in crontab file, this send mail to network mailbox
