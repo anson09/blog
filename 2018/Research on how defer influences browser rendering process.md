@@ -2,7 +2,7 @@
 order: 2
 ---
 
-# defer 对浏览器渲染流程影响探究
+# Research on how defer influences browser rendering process
 
 `index.html`
 

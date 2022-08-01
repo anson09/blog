@@ -2,7 +2,7 @@
 order: 9
 ---
 
-# setTimeout 最短时长测试
+# Test on the shortest time of setTimeout
 
 ```js
 setTimeout(() => console.log(5), 5);
@@ -29,4 +29,4 @@ safari(15.5) firefox(102) output：
 4
 5
 
-结论：V8 最短时长 1ms，SpiderMonkey、Nitro 最短时长 0ms
+conclusion：the shortest time of V8 is 1ms，the shortest time of SpiderMonkey、Nitro is 0ms

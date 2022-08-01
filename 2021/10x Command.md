@@ -4,11 +4,11 @@ order: 8
 
 # 10x Command
 
-服务器抓包与请求拦截
+Capture package and request interception
 
 ```bash
- tcpdump -i ens192 -Xnns 0 port not 22 and tcp and not dst net 192.168
- iptables -I OUTPUT -p tcp -d 13.250.94.254 -j REJECT
+tcpdump -i ens192 -Xnns 0 port not 22 and tcp and not dst net 192.168
+iptables -I OUTPUT -p tcp -d 13.250.94.254 -j REJECT
 ```
 
 ---

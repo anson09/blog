@@ -2,7 +2,7 @@
 order: 7
 ---
 
-# simple js benchmarks in different browsers
+# Simple js benchmarks in different browsers
 
 macos 11.3.1
 macbook pro 13-inch 2017
