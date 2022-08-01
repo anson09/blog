@@ -19,6 +19,7 @@ dirs -v
 git shortlog -sn
 git status --ignore
 git check-ignore -v <file>
+journalctl -u shadowsocks-libev.service|xray.service -f
 ```
 
 ---
