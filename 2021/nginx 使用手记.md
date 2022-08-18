@@ -4,6 +4,8 @@ order: 16
 
 # nginx 使用手记
 
+## spa request optimize
+
 ```nginx
 location /welcome {
     alias /static/uat/anka;
@@ -30,13 +32,24 @@ _以下两个开关当使用绝对路径时才生效:_
 - [`server_name_in_redirect off;`](http://nginx.org/en/docs/http/ngx_http_core_module.html#server_name_in_redirect) 打开使用 ng server_name 配置，关闭使用 http 请求头中 host 字段，没有该字段时使用 IP
 - `port_in_redirect on;` 重定向是否带端口号(不带后变成 scheme 默认端口)
 
----
+## variables
 
-根据不同 name 获取 request 中的数据`$http_name`、`$cookie_name`、`$arg_name`
+- $host 拿到的是 hostname, $http_host 拿到的是 host, host=hostname:port, 当 port 是默认端口时 host=hostname
+- 当匹配到的 server 块中有多个 server_name 时，$server_name 取第一个 server_name, 因此 $server_name 拿到的值不一定是匹配的值
+- 根据不同 name 获取 request 中的数据`$http_name`、`$cookie_name`、`$arg_name`
 
 > http://nginx.org/en/docs/http/ngx_http_core_module.html#variables
 
----
+## server_name in server block matches to what
+
+> 1. during SSL handshake, in advance, according to [SNI](http://nginx.org/en/docs/http/configuring_https_servers.html#sni)
+> 2. after processing the request line
+> 3. after processing the Host header field
+> 4. if the server name was not determined after processing the request line or from the Host header field, nginx will use the empty name as the server name.
+
+当请求经过 nginx `proxy_pass http://target` 转发后，下一级 nginx 用于匹配 server_name 的 host 信息来自上一级的 `proxy_set_header Host xxx` 设置，未设置时 第二级 $http_host 取到的值是 target
+
+## geo && proxy_cache_purge
 
 设置内网地址支持根据 proxy_cache_key 清除对应的一条缓存请求(\*结尾清除全部)
 
@@ -55,6 +68,17 @@ map $request_method $purge_method {
 proxy_cache_purge $purge_method;
 ```
 
----
+## proxy_cookie_path
+
+上游服务返回的 set-cookie 中无 domain 字段时 (有 domain 字段时可用 `proxy_cookie_domain`)，给 reponse cookie 添加 domain 字段的 hack:
+
+```nginx
+if ( $host ~ "rq.tech$" ) {
+    set $domain "rq.tech";
+}
+proxy_cookie_path ~^(.+)$ "$1;Domain=$domain";
+```
+
+## link
 
 [robust nginx rules recommend](https://github.com/anson09/ng)
