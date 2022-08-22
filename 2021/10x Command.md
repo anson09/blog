@@ -44,3 +44,18 @@ If cron job's output(1\|2) not redirect, it will mail to local(`mail` command ch
 - directory can't have hard link
 - `exa -lH` show reference count field
 - `ls -i <filename>|choose 0|xargs find . -inum` find all hard link reference
+
+## vpn
+
+### [xray](https://github.com/XTLS/Xray-core)
+
+### bbr
+
+/etc/sysctl.conf append two lines:
+
+```bash
+net.core.default_qdisc=fq
+net.ipv4.tcp_congestion_control=bbr
+```
+
+reload: `sysctl -p`
