@@ -79,6 +79,12 @@ if ( $host ~ "rq.tech$" ) {
 proxy_cookie_path ~^(.+)$ "$1;Domain=$domain";
 ```
 
+## add_header
+
+- 同级别 block（两个 if）后面的 优先级比前面的高，不同级别内层优先级比外层高，最终 add_header 只会选择一个 block 的，不会叠加
+- 4xx 和 5xx 响应可通过增加 always 带回响应头
+- header 的 key 是可以重复的
+
 ## link
 
 [robust nginx rules recommend](https://github.com/anson09/ng)
