@@ -82,8 +82,40 @@ proxy_cookie_path ~^(.+)$ "$1;Domain=$domain";
 ## add_header
 
 - 同级别 block（两个 if）后面的 优先级比前面的高，不同级别内层优先级比外层高，最终 add_header 只会选择一个 block 的，不会叠加
+- 如果有同级 if 块并且最后的 if 块生效但里面没 add_header 时，前面 if 块的 add_header 都会失效，最终 add 的是上一个层级的 header
+
+```nginx
+add_header test1 $v;
+set $v 0;
+if ($uri) {
+    add_header test2 1;
+}
+if ($uri) {
+    set $v "${v}test3";
+    add_header test3 2;
+}
+if ($uri) {
+    # nothing
+    # then change condition to $uri = "no-equal";
+}
+```
+
 - 4xx 和 5xx 响应可通过增加 always 带回响应头
 - header 的 key 是可以重复的
+
+## if-try-files
+
+if 生效时 try_files 会失效，下面例子访问/welcome/xxx 时，相当于访问<dist_path>/xxx, 而不会 fallback 到 /welcome/index.html
+
+```nginx
+location /welcome {
+    alias <dist_path>;
+    try_files $uri /welcome/index.html;
+    if ($uri) {
+         # nothing
+    }
+}
+```
 
 ## link
 
