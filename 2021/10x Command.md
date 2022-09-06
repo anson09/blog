@@ -20,6 +20,7 @@ iptables -I OUTPUT -p tcp -d 13.250.94.254 -j REJECT
 - `git check-ignore -v <file>`
 - `journalctl -u shadowsocks-libev.service|xray.service -f`
 - `nc -kl port` **could use as a http request log service**
+- `curl -k` _insecure https_
 
 ## cron
 
