@@ -2,7 +2,8 @@
 layout: home
 ---
 
-_Working and learning footprints. Most of them keep updated with my knowledge._
+Working / Exploring footprints, most of them keep updated with my knowledge.
+[Original creativity](/LICENSE.txt) Respect
 
 # Last Post
 

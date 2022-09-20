@@ -1,0 +1,5 @@
+LICENSE
+
+Blog content(.md/.html) / image / icon are original and copyrighted by Anson. You may not reuse anything therein without my permission.
+
+Code stuff like js / css is MIT licensed. Feel free to use it as you please. If you do use them, a link back to https://anson.ltd would be appreciated but is not required.

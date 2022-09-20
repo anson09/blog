@@ -15,7 +15,7 @@ import { ref, reactive, toRaw } from "vue";
 
 const proxy = reactive({});
 
-proxyproxyproxy.ref = ref("");
+proxy.ref = ref("");
 proxy.reactive = {};
 
 console.log(proxy.ref === toRaw(proxy.ref)); // true
