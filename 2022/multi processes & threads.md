@@ -27,3 +27,7 @@ worker threads could using multiple cpu cores at the same time，each thread has
 > V8 allows you to spawn isolated V8 runtimes. V8 Isolate is isolated instances with their Javascript heaps and micro-task queues.These segregated V8 engines operate worker threads, with each worker having its V8 engine and event queue.
 
 By the way，nextTickQueue is implemented in node，microTaskQueue is implemented in V8，no of them belong to EventLoop，nextTickQueue has a higher priority.
+
+## browser main js thread
+
+can be blocked by `alert('something')`
