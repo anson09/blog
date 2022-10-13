@@ -32,6 +32,8 @@ _以下两个开关当使用绝对路径时才生效:_
 - [`server_name_in_redirect off;`](http://nginx.org/en/docs/http/ngx_http_core_module.html#server_name_in_redirect) 打开使用 ng server_name 配置，关闭使用 http 请求头中 host 字段，没有该字段时使用 IP
 - `port_in_redirect on;` 重定向是否带端口号(不带后变成 scheme 默认端口)
 
+另外，如果重定向来源是上游，还可以通过 [proxy_redirect](https://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_redirect) 修改上游的重定向地址。未设置此项时，默认行为是当上游返回的重定向地址前缀和 proxy_pass 值匹配时，自动将改前缀替换成该 block 的 $scheme://$server_name:$server_port，否则不修改。
+
 ## variables
 
 - $host 拿到的是 hostname, $http_host 拿到的是 host, host=hostname:port, 当 port 是默认端口时 host=hostname
