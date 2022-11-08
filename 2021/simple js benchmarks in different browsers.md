@@ -26,10 +26,6 @@ Chrome96 : Firefox95 : Safari15.2 speed is 7 : 6 : 1 or so
 
 ---
 
-look forward to 14-inch M serises mac performance
-
----
-
 macos 12.1
 macbook pro 14-inch 2021
 processor 3.2GHz 8+2-Core M1 Pro
