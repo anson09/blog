@@ -4,7 +4,11 @@ order: 12
 
 # js 编解码 API
 
+- utf-8 1-4 字节变长，utf-16 2 或 4 字节变长，utf-32 4 字节定长
+
 - 常用汉字 utf-16 2 字节可以覆盖，utf-8 大部分 3 字节
+
+- unicode BMP U+0000~U+FFFF 容量 6 万+，加上 SMP U+010000~U+10FFFF 容量有 100 万+，目前总收录字符 10 万+
 
 - unicode 编码解码  
   `str.charCodeAt(idx) <--> String.fromCharCode(code)` BMP 适用，超出要用代理对换算  
@@ -30,7 +34,7 @@ order: 12
 - base64 编解码  
   `btoa(stringToEncode) <--> atob(encodedData)`
 
-- string.length 结果是 utf-16 编码的长度，字符个数使用 [...string].length 计算
+- string.length 结果是 utf-16 编码位数（1 位或者 2 位），字符个数使用 [...string].length 计算
 
 ---
 
