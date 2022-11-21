@@ -1,5 +1,6 @@
 ---
 order: 1
+tags: vue
 ---
 
 # vue vs react in reactive

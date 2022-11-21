@@ -1,5 +1,6 @@
 ---
 order: 8
+tags: shell
 ---
 
 # 10x Command

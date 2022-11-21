@@ -1,5 +1,6 @@
 ---
 order: 23
+tags: vue
 ---
 
 # vue 3 notable

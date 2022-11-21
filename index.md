@@ -11,7 +11,7 @@ layout: home
 {% for page in mypages %}
 {% if page.order %}
 
-- [{{ page.title }}]({{ page.url | absolute_url }}) <sub>`{{page.dir | slice: 1,4}}`</sub>
+- [{{ page.title }}]({{ page.url | absolute_url }})<sub> `{{page.dir | slice: 1,4}}` {% assign tags_array = page.tags | split: " " %}{% for tag in tags_array %}`#{{ tag }}` {% endfor %} </sub>
 
 {% endif %}
 {% endfor %}

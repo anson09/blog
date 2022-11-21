@@ -1,5 +1,6 @@
 ---
 order: 7
+tags: browser
 ---
 
 # Simple js benchmarks in different browsers

@@ -1,5 +1,6 @@
 ---
 order: 12
+tags: binary
 ---
 
 # js 编解码 API

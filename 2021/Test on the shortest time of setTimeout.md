@@ -1,5 +1,6 @@
 ---
 order: 9
+tags: browser
 ---
 
 # Test on the shortest time of setTimeout

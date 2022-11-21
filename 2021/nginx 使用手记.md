@@ -1,5 +1,6 @@
 ---
 order: 16
+tags: nginx
 ---
 
 # nginx 使用手记
