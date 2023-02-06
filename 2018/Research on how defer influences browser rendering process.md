@@ -60,9 +60,9 @@ normally, dom and css parse parallel，but when mixin js：
 - all script will start download defore dom parsed, because a preanalysis. Specific start time of preanalysis resources download is influenced by the priority of resource
 - use preload or adjust request priority is anothor topic
 
-event flow: domInteractive -> deferjs -> DOMContentLoaded -> load img -> domComplete -> onLoad
+event flow: readyState:interactive-> deferjs -> DOMContentLoaded -> load img/iframe... -> dreadyState:complete -> onLoad
 
 by the way,
-async script don't wait anything else, nothing wait async script, except it excute may block dom parse.
-dynamic insert script default is async, if we need certain order, set `script.async = false`
-module script default is defer
+async scripts don't wait anything else, nothing wait async script, except it's excuting may block dom parse.
+dynamically inserted script is async by default, if we need certain order, set `script.async = false`.
+module script is defer by default
