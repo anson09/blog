@@ -2,8 +2,11 @@
 layout: home
 ---
 
-<small>_Working / Exploring footprints, most of posts keep updated with my knowledge.
-[Original creativity](/LICENSE.txt) Respect_</small>
+<small>
+_Most of posts keep updated with my knowledge.
+So older one is more completed normally.
+[Original creativity](/LICENSE.txt) Respect._
+</small>
 
 # Last Post
 
