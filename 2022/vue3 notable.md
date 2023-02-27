@@ -44,8 +44,8 @@ console.log(count.value); // 1
 
 ## fallthrough attributes
 
-- Parent event not declared in child emits, will be binded to child root (if any), can be transfered by $attrs and be triggered by child $emit. If declared in child, it can only be triggered by child $emit.
-- class、style and v-on event will be merged, for any other attributes parent override child in single root mode
+- Parent event which is not declared in child emits will be binded to child root (if any), and can be transfered by $attrs as well as be triggered by child $emit. If which has been declared in child, it can only be triggered by child $emit.
+- class、style and v-on event will be merged, while other attributes parent overrides child in single root mode
 
 ## pinia
 
