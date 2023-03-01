@@ -31,3 +31,7 @@ safari(15.5) firefox(102) output：
 5
 
 conclusion：the shortest time of V8 is 1ms，the shortest time of SpiderMonkey、Nitro is 0ms
+
+Update:
+
+chrome(110) is outputing the same as safari now. While nodejs(18) is still the above outputing，btw setTimeout is implemented by runtime rather than v8
