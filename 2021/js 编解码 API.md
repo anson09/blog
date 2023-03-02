@@ -3,7 +3,7 @@ order: 12
 tags: binary
 ---
 
-# js 编解码 API
+# JS 编解码 API
 
 - utf-8 1-4 字节变长，utf-16 2 或 4 字节变长，utf-32 4 字节定长
 

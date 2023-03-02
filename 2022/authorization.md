@@ -3,7 +3,7 @@ order: 24
 tags: security
 ---
 
-# authorization
+# Authorization
 
 ## summary
 

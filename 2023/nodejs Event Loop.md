@@ -3,7 +3,7 @@ order: 27
 tags: nodejs
 ---
 
-# nodejs Event Loop
+# NodeJS Event Loop
 
 事件循环是在 libuv 中实现的，libuv 对系统异步任务（network io -> 基于 epoll、kqueue...）和同步任务(file io、crypto、dns... -> 基于线程池) 进行了封装，用于执行多任务，任务执行结束后结果推入事件队列中（每个阶段有自己的队列），再被事件循环取出执行。
 

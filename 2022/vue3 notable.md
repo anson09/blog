@@ -3,7 +3,7 @@ order: 23
 tags: vue
 ---
 
-# vue 3 notable
+# Vue 3 Notable
 
 ## reactivity fundamentals
 

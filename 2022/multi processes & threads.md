@@ -3,7 +3,7 @@ order: 21
 tags: performance
 ---
 
-# multi processes & threads
+# Multi Processes & Threads
 
 ## multiple processes listening on the same port
 

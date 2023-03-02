@@ -3,7 +3,7 @@ order: 16
 tags: nginx
 ---
 
-# nginx 使用手记
+# Nginx 使用手记
 
 ## spa request optimize
 

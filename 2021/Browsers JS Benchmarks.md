@@ -3,7 +3,7 @@ order: 7
 tags: browser
 ---
 
-# Simple js benchmarks in different browsers
+# Browsers JS Benchmarks
 
 macos 11.3.1
 macbook pro 13-inch 2017

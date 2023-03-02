@@ -3,7 +3,7 @@ order: 9
 tags: browser
 ---
 
-# Test on the shortest time of setTimeout
+# The Shortest Time of setTimeout
 
 ```js
 setTimeout(() => console.log(5), 5);

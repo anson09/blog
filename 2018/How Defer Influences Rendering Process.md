@@ -3,7 +3,7 @@ order: 2
 tags: browser
 ---
 
-# Research on how defer influences browser rendering process
+# How Defer Influences Rendering Process
 
 `index.html`
 
