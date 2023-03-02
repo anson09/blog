@@ -84,7 +84,7 @@ proxy_cookie_path ~^(.+)$ "$1;Domain=$domain";
 
 ## add_header
 
-- 同级别 block（两个 if）后面的 优先级比前面的高，不同级别内层优先级比外层高，最终 add_header 只会选择一个 block 的，不会叠加
+- 同级别 block（两个 if）后面的优先级比前面的高，不同级别内层优先级比外层高，最终 add_header 只会选择一个 block 的，不会叠加
 - [ngx_http_rewrite_module](http://nginx.org/en/docs/http/ngx_http_rewrite_module.html#directives]) 指令集是优先执行，顺序执行的，其他指令集在它之后执行
 - 如果有同级 if 块并且最后的 if 块生效但里面没 add_header 时，前面 if 块的 add_header 都会失效，最终 add 的是上一个层级的 header
 
