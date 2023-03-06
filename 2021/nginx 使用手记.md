@@ -100,7 +100,6 @@ if ($uri) {
 }
 if ($uri) {
     # nothing
-    # then change condition to $uri = "no-equal";
 }
 ```
 
@@ -109,7 +108,7 @@ if ($uri) {
 
 ## if-try-files
 
-if 生效时 try_files 会失效，下面例子访问/welcome/xxx 时，相当于访问<dist_path>/xxx, 而不会 fallback 到 /welcome/index.html
+if 生效时 try_files 会失效，下面例子访问/welcome/xxx 时，相当于访问\<dist_path>/xxx, 而不会 fallback 到 /welcome/index.html
 
 ```nginx
 location /welcome {
