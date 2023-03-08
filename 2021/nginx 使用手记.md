@@ -122,4 +122,4 @@ location /welcome {
 
 ## link
 
-[robust nginx rules recommend](https://github.com/anson09/ng)
+📎 [robust nginx rules recommend](https://github.com/anson09/ng)

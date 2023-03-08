@@ -12,7 +12,7 @@ vscode debugger 和 chrome devtools 都是 client, 分别通过 DAP（TCP） 和
 
 node 的 debugger 直接使用了 v8-inspector protocol，属于 CDP 子集，所以 devtool 可以直接连上 node runtime，而 vscode 通过 DAP server 完成 v8-inspector protocol 对接
 
-附 [vscode node debug usage](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)
+📎 附 [vscode node debug usage](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)
 
 一些补充 tips：
 

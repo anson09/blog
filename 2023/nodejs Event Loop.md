@@ -78,3 +78,5 @@ queueMicrotask(() => {
 ```
 
 提示：代码逻辑最好不要和事件循环执行优先级耦合，起码在对 node 的底层逻辑有充分的掌控自信之前，因为不同 node 版本，操作系统，机器性能等因素都可能都会影响代码的执行结果
+
+📎 附一个相关 [issue](https://github.com/stackblitz/webcontainer-core/issues/980)
