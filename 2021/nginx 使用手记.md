@@ -39,7 +39,7 @@ _以下两个开关当使用绝对路径时才生效:_
 
 - $host 拿到的是 hostname, $http_host 拿到的是 host, host=hostname:port, 当 port 是默认端口时 host=hostname
 - 当匹配到的 server 块中有多个 server_name 时，$server_name 取第一个 server_name, 因此 $server_name 拿到的值不一定是匹配的值
-- 根据不同 name 获取 request 中的数据`$http_name`、`$cookie_name`、`$arg_name`
+- 根据不同 name 获取 request 中的数据 `$http_name`、`$cookie_name`、`$arg_name`
 
 > http://nginx.org/en/docs/http/ngx_http_core_module.html#variables
 
