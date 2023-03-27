@@ -7,21 +7,8 @@ tags: vue
 
 ## reactivity fundamentals
 
-- Use reactive many times in origin or proxyed object always return the same proxy object, but ref always return a new proxy object
+- Using reactive many times in origin or proxy object always return the same proxy object, while ref return a new proxy object when arguments is origin object each time, return the same proxy object when arguments is proxy object.
 - > If an object is assigned as a ref's value, the object is made deeply reactive with reactive(). This also means if the object contains nested refs, they will be deeply unwrapped.
-- Ref unwrappping **is not** reactive unwrappping, example:
-
-```js
-import { ref, reactive, toRaw } from "vue";
-
-const proxy = reactive({});
-
-proxy.ref = ref("");
-proxy.reactive = {};
-
-console.log(proxy.ref === toRaw(proxy.ref)); // true
-console.log(proxy.reactive === toRaw(proxy.reactive)); // false
-```
 
 - Set noRefValue / Ref to a reactive object
 
@@ -44,7 +31,14 @@ console.log(count.value); // 1
 
 ## fallthrough attributes
 
-- Parent event which is not declared in child emits will be binded to child root (if any), and can be transfered by $attrs as well as be triggered by child $emit. If which has been declared in child, it can only be triggered by child $emit.
+- Parent event not declared in child emits will be
+
+1. binded to child root, acting as navite event (if any, `inheritAttrs: false` can disable this)
+2. accessed by $attrs in child
+3. triggered by child $emit
+
+So, emit event may be trigger duplicated in item 1 and item 3. If which has been declared in child, only item 3 will happen
+
 - class、style and v-on event will be merged, while other attributes parent overrides child in single root mode
 
 ## pinia
