@@ -30,7 +30,7 @@ safari(15.5) firefox(102) output：
 4
 5
 
-conclusion：the shortest time of V8 is 1ms，the shortest time of SpiderMonkey、Nitro is 0ms
+conclusion：the shortest time of V8 is 1ms，the shortest time of SpiderMonkey、JavaScriptCore is 0ms
 
 Update:
 
