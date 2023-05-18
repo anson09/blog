@@ -58,7 +58,7 @@ normally, dom and css parse parallel，but when mixin js：
 - with defer case, dom parse don't wait js excute, and js excute don't wait css parse
 - the defer attribute is ignored if the `<script>` tag has no `src`
 - all script will start downloading before dom is parsed, because a preanalysis. Specific start time of preanalysis resources download is influenced by the priority of resource
-- use preload or adjust request priority is anothor topic
+- use preload or fetchpriority is anothor topic
 
 event flow: readyState:interactive-> deferjs -> DOMContentLoaded -> load img/iframe... -> dreadyState:complete -> onLoad
 
