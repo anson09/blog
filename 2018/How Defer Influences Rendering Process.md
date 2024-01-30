@@ -20,7 +20,13 @@ tags: browser
   </head>
 
   <body>
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        console.log("DOMContentLoaded has fired");
+      });
+    </script> -->
     <script src="./main.js" defer></script>
+    <script src="./main2.js" async></script>
     <div id="app">hello</div>
   </body>
 
@@ -40,6 +46,12 @@ tags: browser
 console.log(1);
 ```
 
+`main2.js`
+
+```js
+console.log(2);
+```
+
 add network throttle setting
 
 ![image](../assets/images/2018-2-1.png)
@@ -52,17 +64,21 @@ with defer
 
 ![image](../assets/images/2018-2-3.png)
 
+html parsing relation with js
+
+![image](../assets/images/2018-2-4.png)
+
 normally, dom and css parse parallel，but when mixin js：
 
-- without defer case，dom parse wait script, script wait css parse
-- with defer case, dom parse don't wait js excute, and js excute don't wait css parse
+- without defer/async case, script excutes waiting css parse
+- within defer/async case, js excuting don't wait css parsing (this article is written in 2018, in latest chrome, defer js excuting will wait css parsing)
+- async script won't be excuted until html parsing through the line of async script, even if this aysnc script is downloaded. so inserting a async script contianed log could test whether html has parsed through this line
 - the defer attribute is ignored if the `<script>` tag has no `src`
-- all script will start downloading before dom is parsed, because a preanalysis. Specific start time of preanalysis resources download is influenced by the [priority of resource](https://docs.google.com/document/d/1bCDuq9H1ih9iNjgzyAL0gpwNFiEP4TZS-YLRp_RuMlc/edit?pli=1)
+- all scripts will start downloading before dom is parsed, because a preanalysis. Specific starting time of preanalysis resources download is influenced by the [priority of resource](https://docs.google.com/document/d/1bCDuq9H1ih9iNjgzyAL0gpwNFiEP4TZS-YLRp_RuMlc/edit?pli=1)
 - use preload or fetchpriority is anothor topic
 
 event flow: readyState:interactive-> deferjs -> DOMContentLoaded -> load img/iframe... -> dreadyState:complete -> onLoad
 
 by the way,
-async scripts don't wait anything else, and nothing wait async script, except it's excuting may block dom parse.
 dynamically inserted script is async by default, if we need certain order, set `script.async = false`.
 module script is defer by default
