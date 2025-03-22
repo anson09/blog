@@ -13,7 +13,7 @@ tags: browser
   <head>
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
       integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
       crossorigin="anonymous"
     />
@@ -56,11 +56,11 @@ add network throttle setting
 
 ![image](../assets/images/2018-2-1.png)
 
-without defer
+without defer/async
 
 ![image](../assets/images/2018-2-2.png)
 
-with defer
+with defer/async
 
 ![image](../assets/images/2018-2-3.png)
 
@@ -77,7 +77,7 @@ normally, dom and css parse parallel，but when mixin js：
 - all scripts will start downloading before dom is parsed, because a preanalysis. Specific starting time of preanalysis resources download is influenced by the [priority of resource](https://docs.google.com/document/d/1bCDuq9H1ih9iNjgzyAL0gpwNFiEP4TZS-YLRp_RuMlc/edit?pli=1)
 - use preload or fetchpriority is anothor topic
 
-event flow: readyState:interactive-> deferjs -> DOMContentLoaded -> load img/iframe... -> dreadyState:complete -> onLoad
+event flow: readyState:interactive-> deferjs -> DOMContentLoaded -> load img/iframe... -> readyState:complete -> onLoad
 
 by the way,
 dynamically inserted script is async by default, if we need certain order, set `script.async = false`.
